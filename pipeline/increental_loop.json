@@ -8,6 +8,10 @@
 				"dependsOn": [],
 				"userProperties": [],
 				"typeProperties": {
+					"items": {
+						"value": "@pipeline().parameters.loop_all",
+						"type": "Expression"
+					},
 					"activities": [
 						{
 							"name": "az_sql_to_lake",
@@ -180,7 +184,7 @@
 												"parameters": {
 													"containeer": "bronze",
 													"folder": {
-														"value": "@pipeline().parameters.table",
+														"value": "@item().table",
 														"type": "Expression"
 													},
 													"file": "@concat(pipeline().parameters.table,'_',variables('current'))"
