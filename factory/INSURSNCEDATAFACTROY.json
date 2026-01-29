@@ -1,0 +1,9 @@
+{
+	"name": "INSURSNCEDATAFACTROY",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "98237e9b-f48e-4c4b-9f51-6d79743e4f6f",
+		"tenantId": "3096436d-9c26-4ad2-aee5-7235297eb219"
+	}
+}
