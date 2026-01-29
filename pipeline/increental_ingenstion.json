@@ -199,7 +199,7 @@
 						"parameters": {
 							"p_container": "bronze",
 							"folder": "cdc",
-							"file": "json"
+							"file": "cdc.json"
 						}
 					}
 				]
